@@ -1,0 +1,66 @@
+body{
+    font-size: 18px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-top{
+    background-image: url(/asset/images/bg-hero-desktop.svg);
+}
+
+.container-footer{
+    background-color: darkslategray;
+}
+
+.navbar-link{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-justify{
+    text-align: justify;
+    width: 20%;
+}
+.img-top{
+    width: 70%;    
+    margin-top: 10%;
+    margin-left: 20%;
+    min-height: 200px;
+}
+
+.img-card-top{
+    width: 60%;    
+    margin-top: 10%;
+    margin-left: 20%;
+    min-height: 200px;  
+}
+
+.txt-top{
+    margin-left: 2%;
+    margin-top: 8%;
+}
+
+.footer-list-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0;
+}
+.flex-betwen{
+    display: flex;
+    gap: 0 10px;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.card-hover:hover {
+    background-color: aqua;
+}
